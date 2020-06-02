@@ -28,7 +28,12 @@ Stop crying because someone is playing badly with your main agent
 You can add agents or correct the position of existing ones after an update or for a different resolution.
 Simply take a screenshot of the agent selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
 
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
+> > based on the [Overwatch Hero Picker](https://github.com/Robert-K/overwatch-hero-picker/)
