@@ -14,7 +14,7 @@ Stop crying because someone is playing badly with your main agent
 
 4. Start a queue
 5. Press F4 to toggle script
-6. agent selected?
+6. Agent selected?
 7. Press F4 again
 7. Profit
 
