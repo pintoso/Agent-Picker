@@ -3,7 +3,7 @@ Automatically picks a selected agent as soon as possible.
 
 ### AutoHotkey is not required to run the executable!
 
-![](https://i.imgur.com/xIjMcf9.png)
+![](https://i.imgur.com/1HOO68L.png)
 
 Stop crying because someone is playing badly with your main agent
 
