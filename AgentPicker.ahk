@@ -1,4 +1,5 @@
 #NoEnv
+#NoTrayIcon
 SendMode Input
 #SingleInstance Force
 #MaxThreadsPerHotkey 2
@@ -53,7 +54,7 @@ IniRead, yContinue, Config.ini, Continue Button, yPosition , 600
 Gui, Font, s10
 Gui, Add, Text,, Select an agent
 Gui, Add, DropDownList,w85 vElement gAction, %names%
-Gui, Add, Text,,Press F4 to enable/disable.`nThe agent will be picked up `nas the agent selection appears.`n`n(C) PINTOSO 2020
+Gui, Add, Link,,Press F4 to enable/disable.`nThe agent will be picked up `nas the agent selection appears.`n`n<a href="https://pastebin.com/raw/tv3fenUs">(C) PINTOSO 2020</a>
 Gui, Show, w230 h145, Agent Picker
 
 
@@ -115,21 +116,4 @@ Loop
         Sleep, 51
         MouseClick, left, xContinue, yContinue
 }
-return
-
-
-;----  TRAY
-;
-TrayTip, Agent Picker, #PINTOSO#
-Menu, tray, NoStandard
-Menu, tray, add
-Menu, tray, add, @PINTOSO, link
-Menu, tray, add
-Menu, tray, add, EXIT, Exit
-
-link:
-run, https://pastebin.com/raw/tv3fenUs
-return
-exit:
-ExitApp
 return
