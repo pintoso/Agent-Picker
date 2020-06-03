@@ -1,4 +1,4 @@
-﻿#NoEnv
+#NoEnv
 SendMode Input
 #SingleInstance Force
 #MaxThreadsPerHotkey 2
@@ -51,14 +51,14 @@ IniRead, yContinue, Config.ini, Continue Button, yPosition , 600
 ;----  GUI
 ;
 Gui, Font, s10
-Gui, Add, Text,, Selecione um agente
+Gui, Add, Text,, Select an agent
 Gui, Add, DropDownList,w85 vElement gAction, %names%
 Gui, Add, Text,,Press F4 to enable/disable.`nThe agent will be picked up `nas the agent selection appears.`n`n(C) PINTOSO 2020
 Gui, Show, w230 h145, Agent Picker
 
+
 ;----  LAST WINDOW POS
 ;
-
 ifnotexist,ignore.ini
     {
     IniWrite, first, ignore.ini, lastwinpos, xpos
@@ -72,7 +72,6 @@ if (xpos="first")
 else
   Gui, show, w230 h145 x%xpos% y%ypos%
 return
-
 
 GuiClose:
   WinGetPos, xpos, ypos
@@ -129,7 +128,7 @@ Menu, tray, add
 Menu, tray, add, EXIT, Exit
 
 link:
-run, https://steamcommunity.com/id/Dennil/
+run, https://pastebin.com/raw/tv3fenUs
 return
 exit:
 ExitApp
