@@ -30,6 +30,7 @@ Stop crying because someone is playing badly with your main agent
 You can add agents or correct the position of existing ones after an update or for a different resolution.
 Simply take a screenshot of the agent selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
 
+Or use [the online method](https://github.com/pintoso/Agent-Picker/issues/2) (very easy)
 
 
 ## License
