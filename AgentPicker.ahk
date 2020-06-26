@@ -68,9 +68,7 @@ ifnotexist,ignore.ini
 
 IniRead, xpos, ignore.ini, lastwinpos, xpos
 IniRead, ypos, ignore.ini, lastwinpos, ypos
-if (xpos="first")
-  Gui, show, w230 h145
-else
+if xpos is number
   Gui, show, w230 h145 x%xpos% y%ypos%
 return
 
