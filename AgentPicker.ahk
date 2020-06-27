@@ -6,7 +6,6 @@ SendMode Input
 #IfWinActive VALORANT
 SetWorkingDir, %A_ScriptDir%
 
-Menu, Tray, Icon, %A_ScriptDir%\icon.ico
 
 ;----  SOUNDS
 ;
