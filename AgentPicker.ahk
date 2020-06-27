@@ -6,6 +6,7 @@ SendMode Input
 #IfWinActive VALORANT
 SetWorkingDir, %A_ScriptDir%
 
+Menu, Tray, Icon, %A_ScriptDir%\icon.ico
 
 ;----  SOUNDS
 ;
@@ -43,10 +44,9 @@ Loop, Read, Agent List.txt
 for i, element in agents
     names .= i . "|"
 
-IniRead, y, Config.ini, Agents Icons, yPosition , 687
-
-IniRead, xContinue, Config.ini, Continue Button, xPosition , 680
-IniRead, yContinue, Config.ini, Continue Button, yPosition , 600
+IniRead, y, Config.ini, Agents Icons, yPosition
+IniRead, xContinue, Config.ini, Continue Button, xPosition
+IniRead, yContinue, Config.ini, Continue Button, yPosition
 
 
 ;----  GUI
@@ -54,8 +54,8 @@ IniRead, yContinue, Config.ini, Continue Button, yPosition , 600
 Gui, Font, s10
 Gui, Add, Text,, Select an agent
 Gui, Add, DropDownList,w85 vElement gAction, %names%
-Gui, Add, Link,,Press F4 to enable/disable.`nThe agent will be picked up `nas the agent selection appears.`n`n<a href="https://pastebin.com/raw/tv3fenUs">(C) PINTOSO 2020</a>
-Gui, Show, w230 h145, Agent Picker
+Gui, Add, Link,,Press F4 to enable/disable.`nPress F9 to kill me.`nThe agent will be picked up `nas the agent selection appears.`n`n<a href="https://pastebin.com/raw/tv3fenUs">(C) PINTOSO 2020</a>
+Gui, Show, w230 h165, Agent Picker
 
 
 ;----  LAST WINDOW POS
@@ -69,7 +69,7 @@ ifnotexist,ignore.ini
 IniRead, xpos, ignore.ini, lastwinpos, xpos
 IniRead, ypos, ignore.ini, lastwinpos, ypos
 if xpos is number
-  Gui, show, w230 h145 x%xpos% y%ypos%
+  Gui, show, w230 h165 x%xpos% y%ypos%
 return
 
 GuiClose:
@@ -115,3 +115,7 @@ Loop
         MouseClick, left, xContinue, yContinue
 }
 return
+
+#IfWinActive
+
+F9::ExitApp
