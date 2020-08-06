@@ -9,3 +9,4 @@ Brimstone	:0
 Omen	:0
 Raze	:0
 Reyna	:0
+Killjoy	:0
