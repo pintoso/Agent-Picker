@@ -15,7 +15,7 @@ FileInstall, disable.wav, disable.wav
 
 ;----  DEFAULT FILES
 ;
-defaultlist = Breach	:0`nCypher	:0`nJett	:0`nPhoenix	:0`nSage	:0`nSova	:0`nViper	:0`nBrimstone	:0`nOmen	:0`nRaze	:0`nReyna	:0`n
+defaultlist = Breach	:0`nCypher	:0`nJett	:0`nPhoenix	:0`nSage	:0`nSova	:0`nViper	:0`nBrimstone	:0`nOmen	:0`nRaze	:0`nReyna	:0`nKilljoy	:0`n
 ifnotexist,Agent List.txt
     {
     FileAppend, %defaultlist%, %A_ScriptDir%\Agent List.txt
