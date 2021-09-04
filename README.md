@@ -5,7 +5,7 @@ Automatically picks a selected agent as soon as possible.
 ### [DOWNLOAD HERE](https://github.com/pintoso/Agent-Picker/releases/latest/download/AgentPicker.exe)
 
 
-![](https://i.imgur.com/1HOO68L.png)
+![](https://i.imgur.com/0nYAqMg.png)
 
 Stop crying because someone is playing badly with your main agent
 
@@ -21,11 +21,12 @@ Stop crying because someone is playing badly with your main agent
 7. Profit
 
 # How to configure for your resolution
-[Config.ini](Config.ini) = Y Agent Icon position
 
-[Config.ini](Config.ini) = XY Continue Button position
+[Continue Button.ini](Continue%20Button.ini) = XY Continue Button position
 
-[Agent List.txt](Agent%20List.txt) = X Agents position
+[[X]Agent List.txt]([X]Agent%20List.txt) = X Agents position
+
+[[Y]Agent List.txt]([Y]Agent%20List.txt) = Y Agents position
 
 You can add agents or correct the position of existing ones after an update or for a different resolution.
 Simply take a screenshot of the agent selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
