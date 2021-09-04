@@ -3,6 +3,8 @@ Automatically picks a selected agent as soon as possible.
 
 ### AutoHotkey is not required to run the executable!
 ### [DOWNLOAD HERE](https://github.com/pintoso/Agent-Picker/releases/latest/download/AgentPicker.exe)
+`for more security, use the executable`
+
 
 
 ![](https://i.imgur.com/0nYAqMg.png)
