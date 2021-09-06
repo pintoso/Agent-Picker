@@ -50,7 +50,7 @@ if you want to compile by yourself for security reasons, follow this step by ste
 
 5. Download, compile and install [BinMod.ahk](https://github.com/AutoHotkey/Ahk2Exe/blob/master/BinMod.ahk) (follow the instructions on line 15)
 
-6. Compile `Agent Picker.ahk` using Ahk2Exe using these [settings](https://prnt.sc/1rbyj5u)
+6. Compile `AgentPicker.ahk` using Ahk2Exe using these [settings](https://prnt.sc/1rbyj5u)
 
 7. Download [imageCFG](https://robpol86.com/imagecfg.html) and place it in the same `AgentPicker.exe` folder
 
