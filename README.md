@@ -4,6 +4,7 @@ Automatically picks a selected agent as soon as possible.
 ### AutoHotkey is not required to run the executable!
 ### [DOWNLOAD HERE](https://github.com/pintoso/Agent-Picker/releases/latest/download/AgentPicker.exe)
 #### if your antivirus does not like the file, this is a FALSE positive, check the [VIRUSTOTAL](https://www.virustotal.com/gui/file/b16bab869527ccafd8c885928012ffbef102175358ce744e751495029da1ce34/detection) scan
+or just [compile it yourself](#compiling)
 
 
 ![](https://i.imgur.com/0nYAqMg.png)
