@@ -36,6 +36,7 @@ Or use [the online method](https://github.com/pintoso/Agent-Picker/issues/2) (ve
 
 ## Compiling
 if you want to compile by yourself for security reasons, follow this step by step to compile correctly in `.exe`
+
 (step 7 and 8 are optional)
 
 1. Install [AHK](https://www.autohotkey.com/download/)
