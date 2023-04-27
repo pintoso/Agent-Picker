@@ -34,16 +34,16 @@ you can also [compile it yourself](#compiling)
 
 # How to configure for your resolution
 
+Just use this EASY [online method](https://github.com/pintoso/Agent-Picker/issues/2) to get X and Y coordinates and replace in the files:
+
 [Continue Button.ini](Continue%20Button.ini) = XY Continue Button position
 
 [[X]Agent List.txt]([X]Agent%20List.txt) = X Agents position
 
 [[Y]Agent List.txt]([Y]Agent%20List.txt) = Y Agents position
 
-You can add agents or correct the position of existing ones after an update or for a different resolution.
-Simply take a screenshot of the agent selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
+You can add agents or correct the position of existing ones after an update or for a different resolution ^^
 
-Or use [the online method](https://github.com/pintoso/Agent-Picker/issues/2) (very easy)
 
 ## Compiling
 if you want to compile by yourself for security reasons, follow this step by step to compile correctly in `.exe`
